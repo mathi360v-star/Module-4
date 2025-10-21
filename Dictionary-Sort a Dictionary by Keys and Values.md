@@ -31,11 +31,12 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-data=eval(input())
-sort=dict(sorted(data.items()))
-print("Keys and Values sorted in alphabetical order by the key")
-for key, value in sort.items():
-    print(f"({key}, {value}) ",end="")
+my_dict = {'b': 5, 'a': 2, 'd': 8, 'c': 3}
+sorted_by_keys = dict(sorted(my_dict.items()))
+sorted_by_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
+print(my_dict)
+print(sorted_by_keys)
+print(sorted_by_values)
 ```
 
 ## Sample Output
