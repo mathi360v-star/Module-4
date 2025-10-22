@@ -31,15 +31,28 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-my_dict = {'b': 5, 'a': 2, 'd': 8, 'c': 3}
-sorted_by_keys = dict(sorted(my_dict.items()))
-sorted_by_values = dict(sorted(my_dict.items(), key=lambda item: item[1]))
-print(my_dict)
-print(sorted_by_keys)
-print(sorted_by_values)
+def dictionary():     
+    key_value = {}    
+
+    key_value[2] = 56       
+    key_value[1] = 2 
+    key_value[5] = 12 
+    key_value[4] = 24 
+    key_value[6] = 18      
+    key_value[3] = 323 
+
+    print("Keys and Values sorted in ascending order by value:")
+
+    for k, v in sorted(key_value.items(), key=lambda item: item[1]):
+        print(k, ":", v)
+dictionary()
+
 ```
 
 ## Sample Output
+
+<img width="522" height="90" alt="image" src="https://github.com/user-attachments/assets/e3103511-20e8-44c1-9503-9ee02d3695c5" />
+
 
 ## Result
 The Python program that sorts a dictionary's:
