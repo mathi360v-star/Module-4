@@ -41,7 +41,7 @@ def dictionary():
     key_value[6] = 18      
     key_value[3] = 323 
 
-    print("Keys and Values sorted in ascending order by value:")
+    print("Keys and Values sorted in alphabetical order by value:")
 
     for k, v in sorted(key_value.items(), key=lambda item: item[1]):
         print(k, ":", v)
