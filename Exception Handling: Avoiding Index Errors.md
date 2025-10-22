@@ -20,6 +20,8 @@ except IndexError:
 ```
 
 ## Output
+<img width="518" height="141" alt="image" src="https://github.com/user-attachments/assets/32f4c789-5726-45c4-bcd7-a7112894e0f0" />
+
 
 ## Result
 The Python program that handles an **IndexError** when trying to access an element beyond the available range of a list is executed successfully.
