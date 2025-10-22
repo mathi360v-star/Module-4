@@ -12,18 +12,20 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 ```
-r =eval(input())
-class cse:
-    def mech(self, radius):
-        pi = 3.14159
-        area = pi * (radius ** 2)
-        print(area)
-obj = cse()
-obj.mech(r)
-
+import math
+class Saveetha:
+    def _init_(self, r):
+        self.area = math.pi * (r ** 2) 
+    def slot(self):
+        print("Area of circle:", round(self.area, 2))
+r = float(input())
+res = Saveetha(r)  
+res.slot()
 ```
 
 ## Output
+<img width="516" height="175" alt="image" src="https://github.com/user-attachments/assets/b17fd2e6-d7fb-4431-a607-830153a154d7" />
+
 
 ## Result
 The Python program that calculates the **area of a circle** based on the radius provided by the user. This program uses a class named `cse` and a method `mech` to perform the calculation is executed successfully.
